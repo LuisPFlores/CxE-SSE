@@ -1,4 +1,4 @@
-### Proof of Concept Material
+## Proof of Concept thecnical resources
 
 ### Azure AD Application Proxy
 * [Application Proxy](https://learn.microsoft.com/en-us/azure/active-directory/app-proxy/)
