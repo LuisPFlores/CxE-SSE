@@ -1,5 +1,6 @@
 ## Permissions
-Administrators who interact with Global Secure Access preview features must have the [Global Secure Access Administrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#global-secure-access-administrator) and [Application Administrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#application-administrator) role. 
+Administrators who interact with Global Secure Access preview features must have the [Global Secure Access Administrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#global-secure-access-administrator) and [Application Administrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#application-administrator) role.
+
 Universal tenant restrictions require Conditional Access Administrator or Security Administrator to create and interact with Conditional Access policies and named locations.
 Some features may also require other roles. 
 
