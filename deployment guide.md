@@ -1,7 +1,9 @@
 ## Permissions
-Administrators who interact with Global Secure Access preview features must have the Global Secure Access Administrator and Application Administrator role. 
+Administrators who interact with Global Secure Access preview features must have the [Global Secure Access Administrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#global-secure-access-administrator) and [Application Administrator](https://learn.microsoft.com/en-us/entra/identity/role-based-access-control/permissions-reference#application-administrator) role. 
 Universal tenant restrictions require Conditional Access Administrator or Security Administrator to create and interact with Conditional Access policies and named locations.
-Some features may also require other roles. See Get started with Global Secure Access for more information.
+Some features may also require other roles. 
+
+See [Get started with Global Secure Access for more information](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-get-started-with-global-secure-access).
 
 ## Before you begin
 To successfully deploy and test Microsoft Security Service Edge, you need the following:
@@ -13,8 +15,8 @@ To successfully deploy and test Microsoft Security Service Edge, you need the fo
 One Windows server to function as the Application server:
 * Windows Server 2012 R2 or later
 * Network connectivity to Entra ID Service
-* Ports 80 and 443 are open to outbound traffic
-* Allow access to required URLs
+* Ports 80 and 443 are open to [outbound traffic](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#open-ports)
+* Allow access to [required URLs](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-configure-connectors#allow-access-to-urls)
 * One test application hosted on the application server (RDP access to a file share is used for the purpose of this document)
 
 One Windows server to function as the Connector server:
@@ -27,5 +29,5 @@ One Windows client device
 * Windows 10/11 64-bit version
 * Microsoft Entra ID joined or hybrid joined
 * Internet connected and no corpnet access\VPN
-* Download and install the GSA agent on the client device. See The Global Secure Access Client for Windows (preview) | Microsoft Learn for details.
+* Download and install the GSA agent on the client device. See [The Global Secure Access Client for Windows (preview)](https://learn.microsoft.com/en-us/entra/global-secure-access/how-to-install-windows-client) 
 
